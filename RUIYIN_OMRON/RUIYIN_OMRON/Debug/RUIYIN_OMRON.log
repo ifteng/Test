@@ -1,0 +1,23 @@
+﻿  stdafx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  RUIYIN_OMRON.cpp
+  tradestruct.cpp
+  Trade.cpp
+  HttpClient.cpp
+d:\临时文件\ruiyin_omron\comm\httpclient.cpp(78): warning C4101: “e”: 未引用的局部变量
+  COMMFCN.cpp
+  正在生成代码...
+d:\临时文件\ruiyin_omron\ruiyin_omron\ruiyin_omron.cpp(97): warning C4715: “Initialize”: 不是所有的控件路径都返回值
+    正在创建库 D:\临时文件\RUIYIN_OMRON\Debug\RUIYIN_OMRON.lib 和对象 D:\临时文件\RUIYIN_OMRON\Debug\RUIYIN_OMRON.exp
+HsBased.lib(CommonFun.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(CommonFun.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(InputLanguage.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(InputLanguage.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(LOG.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(LOG.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(LOG2.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(LOG2.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(MD5.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(MD5.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(RS232C.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(RS232C.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(ShareMemory.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(ShareMemory.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(stdafx.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HsBased.lib(TCPClient.obj) : warning LNK4099: 未找到 PDB“HsBase.pdb”(使用“HsBased.lib(TCPClient.obj)”或在“D:\临时文件\RUIYIN_OMRON\Debug\HsBase.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  RUIYIN_OMRON.vcxproj -> D:\临时文件\RUIYIN_OMRON\Debug\RUIYIN_OMRON.dll
+  RUIYIN_OMRON.vcxproj -> D:\临时文件\RUIYIN_OMRON\Debug\RUIYIN_OMRON.pdb (Partial PDB)

@@ -1,0 +1,30 @@
+﻿  stdafx.cpp
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  COMMFCN.cpp
+  HttpClient.cpp
+..\COMM\HttpClient.cpp(78): warning C4101: “e”: 未引用的局部变量
+  Trade.cpp
+  tradestruct.cpp
+  RUIYIN_OMRON.cpp
+RUIYIN_OMRON.cpp(125): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>”
+          with
+          [
+              _CharType=char
+          ]
+RUIYIN_OMRON.cpp(125): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>”
+          with
+          [
+              _CharType=char
+          ]
+RUIYIN_OMRON.cpp(125): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 3 拥有了类型“ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>”
+          with
+          [
+              _CharType=char
+          ]
+    正在创建库 D:\临时文件\RUIYIN_OMRON\Release\RUIYIN_OMRON.lib 和对象 D:\临时文件\RUIYIN_OMRON\Release\RUIYIN_OMRON.exp
+  正在生成代码
+  All 270 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  RUIYIN_OMRON.vcxproj -> D:\临时文件\RUIYIN_OMRON\Release\RUIYIN_OMRON.dll
+  RUIYIN_OMRON.vcxproj -> D:\临时文件\RUIYIN_OMRON\Release\RUIYIN_OMRON.pdb (Full PDB)

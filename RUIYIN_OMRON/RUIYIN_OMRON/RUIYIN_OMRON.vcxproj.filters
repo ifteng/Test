@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="INCLUDE">
+      <UniqueIdentifier>{35b3a011-5ede-4363-a961-b6518fe3c1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTERFACE">
+      <UniqueIdentifier>{729d8fa6-d878-43d4-bd76-5c52d6299e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMM">
+      <UniqueIdentifier>{f3e89440-e485-48b8-960d-13eac72d0443}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RUIYIN_OMRON.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\COMM\COMMFCN.cpp">
+      <Filter>COMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\COMM\HttpClient.cpp">
+      <Filter>COMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\COMM\Trade.cpp">
+      <Filter>COMM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\COMM\tradestruct.cpp">
+      <Filter>COMM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RUIYIN_OMRON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\BasePack.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\BasePrint.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\Client.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\CommonFun.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\CommonUI.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\CommTbl.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\DESTools.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\DLL.H">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\DLL_LOAD.H">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\FileOper.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\Ftp.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\ImageBase.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\ImageDlg.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\InputLanguage.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\LOG.H">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\LOG2.H">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\MD5.H">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\MediaDevice.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\Ping.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\PlayerCtrl.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\RS232C.H">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\sharememory.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\sqlite3.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\sqlite3ext.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\SqliteFun.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\TCPClient.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\TCPServer.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\tinystr.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\tinyxml.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wav.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpcdrom.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpcdromcollection.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpclosedcaption.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpcontrols.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpdvd.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmperror.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmperroritem.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpmedia.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpmediacollection.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpnetwork.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpplayer4.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpplayerapplication.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpplaylist.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpplaylistarray.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpplaylistcollection.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpsettings.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\wmpstringcollection.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\zmq.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INCLUDE\zmq_utils.h">
+      <Filter>INCLUDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\COMM\COMMFCN.h">
+      <Filter>COMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\COMM\HttpClient.h">
+      <Filter>COMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\COMM\Trade.h">
+      <Filter>COMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\COMM\tradestruct.h">
+      <Filter>COMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\INTERFACE\PB_API.h">
+      <Filter>INTERFACE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RUIYIN_OMRON.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\RUIYIN_OMRON.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RUIYIN_OMRON.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
